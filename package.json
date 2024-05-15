@@ -1,6 +1,6 @@
 {
   "name": "fabric-with-touch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pango-lier/fabric-with-touch.git"
+    "url": "git+https://github.com/fabricjs/fabric.js.git"
   },
   "author": "pango-lier",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pango-lier/fabric-with-touch/issues"
   },
-  "homepage": "https://github.com/pango-lier/fabric-with-touch#readme"
+  "homepage": "http://fabricjs.com"
 }
