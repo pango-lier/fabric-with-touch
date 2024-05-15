@@ -1,19 +1,9 @@
 {
-  "name": "fabric",
+  "name": "fabric-with-touch",
   "description": "Object model for HTML5 canvas, and SVG-to-canvas parser. Backed by jsdom and node-canvas.",
   "homepage": "http://fabricjs.com/",
   "version": "5.3.0",
-  "author": "Juriy Zaytsev <kangax@gmail.com>",
-  "contributors": [
-    {
-      "name": "Andrea Bogazzi",
-      "email": "andreabogazzi79@gmail.com"
-    },
-    {
-      "name": "Steve Eberhardt",
-      "email": "melchiar2@gmail.com"
-    }
-  ],
+  "author": "pango-lier",
   "keywords": [
     "canvas",
     "graphic",
@@ -88,6 +78,8 @@
     "node": ">=14.0.0"
   },
   "main": "./dist/fabric.js",
-  "type": "./dist/fabric.d.ts",
-  "dependencies": {}
+  "types": "./dist/fabric-with-touch.d..ts",
+  "dependencies": {
+    "@types/fabric": "^5.3.7"
+  }
 }
